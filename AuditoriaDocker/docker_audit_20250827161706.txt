@@ -1,0 +1,54 @@
+=============================================
+             DockerAuditor                 
+       Auditoría Forense de Docker         
+=============================================
+Fecha: Wed Aug 27 16:17:06 HPS 2025
+=============================================
+
+*****************************
+1. INFORMACIÓN GENERAL
+*****************************
+./DockerAuditor.sh: line 48: sudo: command not found
+./DockerAuditor.sh: line 49: sudo: command not found
+*****************************
+2. USO DEL SISTEMA
+*****************************
+./DockerAuditor.sh: line 62: sudo: command not found
+*****************************
+3. CONTENEDORES
+*****************************
+./DockerAuditor.sh: line 75: sudo: command not found
+*****************************
+4. IMÁGENES
+*****************************
+./DockerAuditor.sh: line 88: sudo: command not found
+*****************************
+5. REDES
+*****************************
+./DockerAuditor.sh: line 101: sudo: command not found
+*****************************
+6. VOLÚMENES
+*****************************
+./DockerAuditor.sh: line 114: sudo: command not found
+*****************************
+7. PLUGINS
+*****************************
+./DockerAuditor.sh: line 127: sudo: command not found
+*****************************
+8. CHECKOV
+*****************************
+No se encontraron archivos Dockerfile o docker-compose.yml en el directorio actual.
+No se realizó el análisis de seguridad con Checkov.
+***********************************************
+                  Tabla Resumen               
+***********************************************
+Componente           Detalles                                
+-------------------- ----------------------------------------
+Docker Version:                                              
+Contenedores:        Total: 0, Activos: 0, Detenidos: 0      
+Imágenes:           Total: 0                                
+Redes:               Total: 0                                
+Volúmenes:          Total: 0                                
+Plugins:             Total: 0                                
+***********************************************
+***********************************************
